@@ -159,12 +159,15 @@
     align-items: center;
     gap: 30px;
   }
+  footer p{
+    color:var(--secondry-color);
+  }
   
 
 
 
   
-  @media  (max-width: 768px) {
+@media  (max-width: 768px) {
     /* Styles for smaller screens */
 
 body{
@@ -181,6 +184,9 @@ body{
     display:flex ;
     flex-direction: column;
   }
+header {
+  height: 45%;
+}
   .logo{
     justify-self: start;
   }
@@ -189,8 +195,8 @@ body{
   }
  
   .hero-left-section {
-    height: 65vh;
-    width: 65vw;
+    height: 80vh;
+    width: 80vw;
     padding: 0 8%;
     
   }
@@ -204,8 +210,10 @@ body{
     flex-direction: column-reverse;
     padding: 20px 0;
   }
+.search-field {
+    display: flex;
+    flex-direction: row;
+  }
   
   }
-  footer p{
-    color:var(--secondry-color);
-  }
+ 
