@@ -162,6 +162,26 @@
   footer p{
     color:var(--secondry-color);
   }
+
+  
+.hero-left-section h1 span.typing-animation {
+  border-right: 2px solid #333;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: typing 8s steps(30) infinite;
+  animation-direction: alternate;
+}
+
+@keyframes typing {
+  0% {
+      width: 0;
+  }
+  100%{
+      width: 42%;
+      color: blue;
+  }
+}
   
 
 
