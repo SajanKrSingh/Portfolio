@@ -10,7 +10,8 @@
   <!--  Google Font, Poppins -->
   <!-- CDN -->
   <!-- FontAweosme CDN -->
-  <title>Project 1</title>
+  <title>Porfolio</title>
+
 </head>
 
 <body>
@@ -38,7 +39,7 @@
   <section class="hero-section">
     <!-- Left Section of HERO -->
     <div class="hero-left-section">
-      <h1>Hello, I am a <span class="typing-animation"> Web Developer</span><br></h1>
+      <h1>Hello, I am a <span id="text"> </span></h1>
       <p>
           I am an aspiring <span>Full Stack JavaScript Developer</span>, who is
           currently working as <span>a Freelancer</span> for
@@ -65,16 +66,27 @@
 
 
   <!-- javaScript -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
   <script>
-   var icon = document.getElementById("icon");
-icon.onclick = function() {
-  document.body.classList.toggle("dark-theme");
-  if (document.body.classList.contains("dark-theme")) {
-    icon.src = "./assets/sun.png";
-  } else {
-    icon.src = "./assets/moon.png";
-  }
-};
+        var icon = document.getElementById("icon");
+        icon.onclick = function() {
+        document.body.classList.toggle("dark-theme");
+        if (document.body.classList.contains("dark-theme")) {
+          icon.src = "./assets/sun.png";
+        } else {
+          icon.src = "./assets/moon.png";
+        }
+      };
+      
+    var typed = new Typed('#text', {
+      strings: ['Web Developer ',' Photo &amp; Video Editor', 'Front-End Developer.'],
+      typeSpeed: 50,
+      backSpeed:50,
+      backDelay:100,
+      loop:true
+    });
 
   </script>
 
