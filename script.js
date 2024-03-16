@@ -1,4 +1,5 @@
- // Dark mood
+
+// Dark mood
  var icon = document.getElementById("icon");
  icon.onclick = function () {
    document.body.classList.toggle("dark-theme");
@@ -34,4 +35,5 @@
    backDelay: 100,
    loop: true,
  });
+ 
 
