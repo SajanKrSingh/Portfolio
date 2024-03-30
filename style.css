@@ -521,6 +521,12 @@ section{
     width: 85%;
   }
 }
+#number p{
+  font-size: 15px;
+}
+
+
+
 @media only screen and (max-width:750){
   .skills-area{
     padding: 0 5%;
@@ -632,6 +638,8 @@ svg{
       overflow: auto;
       margin: 10px;
       padding: auto;
+      height: 100%;
+      
     }
   
     nav {
@@ -660,7 +668,7 @@ svg{
       flex-direction: column;
     }
     .hero-left-section h1 span{
-      width: 80%;
+      width: 100%;
       height: 100px;
       font-size: 25px;
     } 
@@ -695,15 +703,16 @@ svg{
       justify-content: center;
       align-items: center; /* Add the alignment you want */
     }
-    .About .btn{
-      margin: 0 5%;
-      align-self: center;
+    .bt1{
+      display: flex;
       align-items: center;
-      justify-self: center;
       justify-content: center;
     }
    #skl{
     margin-left:30%;
+   }
+   .card{
+    align-items: center;
    }
   }
   
