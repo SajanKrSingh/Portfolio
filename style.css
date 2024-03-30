@@ -5,12 +5,12 @@
     
   }
   :root{
-    --primary-color:#212121;
-    --secondry-color:#edf1fd;
-  }
-  .dark-theme{
     --primary-color:#edf1fd;
     --secondry-color:#212121;
+  }
+  .dark-theme{
+    --primary-color:#212121;
+    --secondry-color:#edf1fd;
   }
   body {
     
@@ -254,7 +254,7 @@
   font-size: 20px;
   line-height: 1.4;
   margin-bottom: 4rem;
-  box-shadow: 0 0 20px #0ef;
+  /* box-shadow: 0 0 20px #0ef; */
 
 }
 #services {
@@ -702,6 +702,8 @@ svg{
       justify-self: center;
       justify-content: center;
     }
-   
+   #skl{
+    margin-left:30%;
+   }
   }
   
