@@ -11,15 +11,15 @@
  };
  // Typing Animation
  //for Name
- var typed = new Typed("#naam", {
-   strings: [
-     "Sajan Kumar Singh ",
-   ],
-   typeSpeed: 50,
-   backSpeed: 50,
-   backDelay: 100,
-   loop: true,
- });
+//  var typed = new Typed("#naam", {
+//    strings: [
+//      "Sajan Kumar Singh ",
+//    ],
+//    typeSpeed: 50,
+//    backSpeed: 50,
+//    backDelay: 100,
+//    loop: true,
+//  });
 
 
  //For Web Dev
