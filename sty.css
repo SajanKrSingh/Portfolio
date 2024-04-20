@@ -22,10 +22,18 @@
 }
 
 .project-container {
+  background-color: transparent;
   text-align: center;
   width: 21.875rem;
   padding: 1rem;
   margin-right: 50px;
+  border-radius: 20px;
+  transition: background 0.5s, transform 0.5s;
+
+}
+
+.project-container:hover{
+  transform: translateY(-10px);
 }
 .project-container p {
   padding: 0.4rem;
@@ -51,6 +59,7 @@
   margin: 30px 30px;
 }
 
+
 @media screen and (max-width: 720px) {
   .projects-container {
     flex-direction: column;
@@ -64,4 +73,9 @@
   .contact-form-container {
     max-width: 23.75rem;
   }
+.project-card img {
+  display: none;
+
+}
+
 }/*# sourceMappingURL=sty.css.map */

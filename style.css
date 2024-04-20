@@ -57,7 +57,7 @@
     background-color: white;
     color: rgb(18, 155, 155);
     border: 1px solid black;
-    box-shadow: 0 0 5px cyan,0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan;
+    box-shadow: 0 0 20px rgb(152, 225, 230);
   }
   
   header {
@@ -83,8 +83,7 @@
     color: var(--secondry-color);
   }
   nav .logo:hover{
-    background-color:#0ef;
-  box-shadow: 0 0 5px cyan,0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan;
+  font-weight: 800;
   }
   nav ul {
     display: flex;
@@ -98,8 +97,6 @@
   nav ul li:hover {
     text-decoration: underline;
     font-weight: 900;
-    box-shadow: 0 0 5px cyan,0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan;
-    background-color: #0ef;
   }
   
   .search-field {
@@ -111,10 +108,7 @@
     padding: 4px 10px;
     border-radius: 30px;
   }
-  input:hover{
- 
-  box-shadow: 0 0 5px rgb(77, 122, 122),0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan;
-  }
+
   
   .hero-section {
     display: flex;
@@ -178,7 +172,7 @@
 #soc a:hover{
   background: #0ef;
   color:#081b29;
-  box-shadow: 0 0 20px #0ef;
+  box-shadow: 0 0 20px rgb(152, 225, 230);
 }
 
 
@@ -201,11 +195,7 @@
     width: 300px;
     border-radius: 50%;
   }
-  .hero-right-section img:hover{
-    box-shadow: 0 0 5px cyan,0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan;
-    background-color: #0ef;
-  }
-  
+ 
 
 
 
@@ -233,7 +223,7 @@
   
 }
 .about-img img:hover{
-  box-shadow: 0 0 5px cyan,0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan;
+  /* box-shadow: 0 0 5px cyan,0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan; */
   background-color: #0ef;
 }
 .About-text h2{
@@ -311,21 +301,21 @@
 
 .read {
   padding: 12px 28px;
-  background: #0ef;
+  background: rgba(0, 238, 255, 0.841);
   border-radius: 40px;
   font-size: 16px;
   color: #081b29;
   letter-spacing: 1px;
   text-decoration: none;
   font-weight: 600;
-  box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+  box-shadow: 0 0 5px #0ef, 0 0 15px #0ef;
 }
 
 .read:hover {
   background-color: white;
   color: rgb(18, 155, 155);
   border: 1px solid black;
-  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan;
+  /* box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan; */
 }
 #contact-me{
   text-align: center;
