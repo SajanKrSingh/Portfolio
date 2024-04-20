@@ -64,9 +64,7 @@
   .projects-container {
     flex-direction: column;
   }
-  #prj {
-    margin: 60px;
-  }
+
   .project-container {
     width: 20.875rem;
   }
